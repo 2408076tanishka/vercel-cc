@@ -46,7 +46,7 @@ form.addEventListener("submit", async function(event) {
   };
 
   // Google Apps Script URL will be added in Experiment 2.
-  const SCRIPT_URL = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_URL_HERE";
+  const SCRIPT_URL = "https://script.google.com/a/macros/vvm.edu.in/s/AKfycbxBhYWJtgqFLXLVssahEWiRc9qtbxEmQF0WO5YvilqOAl0I4X3z_EdanI9oKShvOe74XA/exec";
 
   if (SCRIPT_URL.startsWith("PASTE_")) {
     status.textContent =
